@@ -23,6 +23,8 @@ btnEmailLogin.addEventListener('click', e => {
             const errorCode = error.code;
             const errorMessage = error.errorMessage;
             window.console.log('Email Sign-in Error: ' + errorCode + '--' + errorMessage);
+            const erroLoginMsg = 'Email ou senha inválidos';
+            window.document.getElementById('msg').innerHTML = erroLoginMsg;
         });
 });
 
@@ -42,7 +44,9 @@ btnCreateAccount.addEventListener('click', e => {
             const errorCode = error.code;
             const errorMessage = error.message;
             window.console.log('Error: ' + errorCode + '- - ' + errorMessage);
-            window.document.getElementById('msg').innerHTML = 'Error: ' + errorCode + '- - ' + errorMessage;
+            // window.document.getElementById('msg').innerHTML = 'Error: ' + errorCode + '- - ' + errorMessage;
+            const errorCreateAccountMsg = 'Email inválido ou senha muito curta.';
+            window.document.getElementById('msg').innerHTML = errorCreateAccountMsg;
         });
 });
 
