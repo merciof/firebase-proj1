@@ -1,0 +1,32 @@
+[debug] [2018-06-02T23:26:32.936Z] ----------------------------------------------------------------------
+[debug] [2018-06-02T23:26:32.940Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-06-02T23:26:32.940Z] CLI Version:   3.18.5
+[debug] [2018-06-02T23:26:32.940Z] Platform:      linux
+[debug] [2018-06-02T23:26:32.941Z] Node Version:  v8.10.0
+[debug] [2018-06-02T23:26:32.941Z] Time:          Sat Jun 02 2018 20:26:32 GMT-0300 (-03)
+[debug] [2018-06-02T23:26:32.941Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-02T23:26:32.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-02T23:26:32.984Z] > authorizing via signed-in user
+[debug] [2018-06-02T23:26:32.987Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/projeto-teste-7dcf3  
+  
+ Sat Jun 02 2018 20:26:32 GMT-0300 (-03)
+[debug] [2018-06-02T23:26:35.648Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-02T23:26:35.651Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/projeto-teste-7dcf3/tokens  
+  
+ Sat Jun 02 2018 20:26:35 GMT-0300 (-03)
+[debug] [2018-06-02T23:26:36.527Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-02T23:26:36.529Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/projeto-teste-7dcf3  
+  
+ Sat Jun 02 2018 20:26:36 GMT-0300 (-03)
+[debug] [2018-06-02T23:26:37.788Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/mercio/Documents/firebase-proj1/firebase-auth'...
+[info] 
+[debug] [2018-06-02T23:26:37.791Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/64536651121/clients/_:getWebAppConfig  
+  
+ Sat Jun 02 2018 20:26:37 GMT-0300 (-03)
+[debug] [2018-06-02T23:26:38.641Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
